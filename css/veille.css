@@ -1,0 +1,109 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    overflow: hidden;
+}
+.group {
+    height: 55%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    align-items: center;
+    justify-content: center;
+    user-select: none;
+    text-align: center;
+    overflow: hidden;
+    color: red;
+    color: rgb(red, green, blue);
+}
+
+.item {
+    width: 200px;
+    height: 300px;
+    background-position: center;
+    background-size: cover;
+    margin: 1vw;
+    border-radius: 3vw;
+    display: inline-block;
+    cursor: pointer;
+    font-size: 20px;
+}
+h3{
+    bottom: 0;
+}
+.videoo{
+    margin-top: -2%;
+}
+
+.tout{
+    border: 2px solid #ff0000;
+    border-radius: 30px;
+    overflow: auto;
+    height: 600px;
+}
+#sortSelect{
+    border: 2px solid #ff0000;
+    border-radius: 30px;
+    width: 275px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.note{
+    display: flex;
+    justify-content: space-around;
+}
+.hero-text{
+    color: #eee;
+    overflow-y: auto;
+    overflow-x: auto;
+    margin: auto; /* Centrer le carrousel */
+    height: 600px;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.hero-text ul{
+    list-style: none;
+    color: #eee;
+}
+
+.bottom{
+    position: relative;
+    bottom: 20px;
+}
+
+.video-container {
+    box-sizing: border-box; /* Ajuste la largeur pour inclure le padding et la bordure sans déborder */
+    width: 43%;
+    float: left;
+    position: relative;
+    margin: 30px; /* Ajoute une marge entre les vidéos */
+    margin-left: 45px;
+    margin-bottom: 10%;
+    
+}
+
+.video-container iframe {
+    width: 100%;
+    height: 100%;
+}
+
+h2{
+    text-align: center;
+    color: #eee;
+}
+
+.avis{
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+.video-container{
+    border: 2px solid #ff0000;
+    border-radius: 30px;
+    padding: 2em;
+}
+
+.hero-text h2{
+    text-decoration: underline;
+}

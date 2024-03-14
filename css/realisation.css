@@ -1,0 +1,83 @@
+.btn{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.hero-text{
+    color: white;
+}
+
+.project{
+    border: 1px solid red;
+    border-radius: 30px;
+    width: 300px;
+    height: 300px;
+    margin: 2%;
+    text-align: center;
+    transition: all 0.75s;
+    text-decoration: none;
+}
+.project h2{
+    color: white;
+}
+.project:hover{
+    transform: scale(103%);
+}
+.fa-1, .fa-2{
+    position: relative;
+    top: -8%;
+    border: 1px solid red;
+    border-radius: 50px;
+    padding: 5%;
+    background-color: black;
+}
+
+section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 2%;
+    overflow-x: hidden;
+    height: 600px;
+    color: red;
+}
+h2{
+    background-color: black;
+    border: 1px solid red;
+    border-radius: 30px;
+
+}
+
+.tech{
+    background-color: black;
+    border: 1px solid red;
+    border-radius: 30px;
+    position: relative;
+    top: 61%;
+    padding: 4%;
+}
+.tech ul{
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+}
+.hero-text{
+    height: 500px;
+}
+.EasyLine{
+    background-image: url("../img/easyline.png");
+    background-size: cover;
+}
+.TextAdventure{
+    background-image: url("../img/textadventure.png");
+    background-size: cover;
+}
+.Rugby{
+    background-image: url("../img/rugby.png");
+    background-size: cover;
+}
+
+body{
+    margin-top: -2%;
+}

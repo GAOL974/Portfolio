@@ -1,0 +1,62 @@
+.perso{
+    color: #eee;
+}
+.perso1{
+    color: #eee;
+}
+.perso1 h2{
+    margin-bottom: 2%;
+}
+.perso1 ul{
+    display: flex;
+    justify-content: space-around;
+}
+#probleme{
+    margin-left: -3em;
+    margin-right: -3em;
+}
+
+.hero-text{
+    text-align: center;
+    overflow-y: auto;
+    overflow-x: hidden;
+    height: 600px;
+    margin-top: -4%;
+    
+}
+.haut i{
+    margin-left: 5%;
+}
+.haut{
+    display: flex;
+    justify-content: space-evenly;
+    padding: -2%;
+    margin: 2%;
+
+}
+.liste li{
+    margin-top: 8%;
+}
+ul{
+    list-style: none;
+}
+
+h2{
+    margin-bottom: 5%;
+}
+
+.perso{
+    padding: 2%;
+    margin: 2%;
+}
+
+.perso3{
+    padding: 2%;
+    margin: 2%;
+    color: #eee;
+}
+
+.contenuss{
+    border: 2px solid #ff0000;
+    border-radius: 30px;
+}

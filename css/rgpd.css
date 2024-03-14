@@ -1,0 +1,15 @@
+
+.container{
+    color: white;
+    overflow-x: hidden;
+    height: 575px;
+    border: 2px solid #ff0000;
+    border-radius: 30px;
+    padding: 2%;
+    margin-top: 20px;
+}
+
+.bottom{
+    position: relative;
+    bottom: -80px;
+}

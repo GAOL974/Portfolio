@@ -1,0 +1,65 @@
+
+.organigramme{
+    text-align: center;
+    justify-content: center;
+}
+.contenu{
+    border: 2px solid #ff0000;
+    color: #eee;
+    margin: 10%;
+    border-radius: 30px;
+    padding: 5%;
+}
+
+h2{
+    margin-bottom: 20px;
+}
+#fondecran {
+    position: fixed;
+    top: -0.63em;
+    left: -0.63em;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+
+.all{
+    overflow-x: hidden;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+}
+
+.hero-text{
+    display: flex;
+    height: 600px;
+}
+
+img{
+    margin: 10px;
+}
+
+.miss{
+    justify-content: center;
+}
+
+.organigramme li{
+    margin-bottom: 5%;
+}
+.organigramme ul{
+    text-align: left;
+}
+
+.drupal{
+    margin-left: -6%;
+}
+
+#ballon{
+    margin-top: 10em;
+    margin-left: -5em;
+}
+
+.gauche{
+    margin-left: -5em;
+}
