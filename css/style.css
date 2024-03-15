@@ -24,6 +24,11 @@ body{
     justify-content: space-between;
 }
 
+.duree{
+    color: #eee;
+    text-align: center;
+}
+
 #titre{
     text-align: left;
     color: #eee;
