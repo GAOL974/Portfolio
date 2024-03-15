@@ -24,6 +24,15 @@ body{
     justify-content: space-between;
 }
 
+#titre{
+    text-align: left;
+    color: #eee;
+}
+
+h1{
+    text-align: center;
+    color: #eee;
+}
 .mooc img{
     width: 100px;
     height: 100px;

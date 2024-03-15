@@ -80,15 +80,23 @@ h2{
 .export_donnees, .ticket_complet, .url{
     background-image: url("../img/gallimedia/gallimedia1.png");
     background-size: 90%;
+    background-repeat: none;
 }
 .croquette{
     background-image: url("../img/croquette.png");
     background-size: cover;
+    background-repeat: none;
+}
+.maquette{
+    background-image: url("../img/maquette-ava/Capture\ d’écran\ 2024-03-15\ à\ 10.44.45.png");
+    background-size: cover;
+    background-repeat: none;
 }
 .billeterie{
     background-image: url("../img/billeterie.png");
     background-size: 100%;
     background-color: aliceblue;
+    background-repeat: none;
 }
 
 body{
@@ -99,4 +107,9 @@ body{
     background-image: url("../img/x-wing.png");
     background-size: cover;
     background-color: aliceblue;
+}
+
+.all{
+    
+    height: 90%;
 }
